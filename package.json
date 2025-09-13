@@ -3,7 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "bot1": "node bot1.js",
+    "bot2": "node bot2.js",
+    "bot3": "node bot3.js",
+    "bot4": "node bot4.js",
+    "bot5": "node bot5.js",
+    "bot6": "node bot6.js",
+    "all": "./start-all.sh",
+    "web": "node web-panel.js",
+    "demo": "./demo.sh"
   },
   "dependencies": {
     "@discordjs/voice": "^0.19.0",
